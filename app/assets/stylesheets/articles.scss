@@ -1,3 +1,45 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-image: url("https://static.zerochan.net/ONE.PIECE.full.691826.jpg");
+  background-size: contain;
+
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  color:white;
+  opacity: 0.65;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+}
+
+.container {
+  background-color: rgba(255, 198, 92, 0.911);
+  border: 1px solid black;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 7px black;
+}
