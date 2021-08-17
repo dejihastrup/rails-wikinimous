@@ -3,5 +3,7 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+10.times do
+  Article.create(title: Faker::JapaneseMedia::OnePiece.character, content: Faker::JapaneseMedia::OnePiece.quote)
+end
 #   Character.create(name: 'Luke', movie: movies.first)
